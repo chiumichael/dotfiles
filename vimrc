@@ -27,15 +27,19 @@ Plugin 'git://git.wincent.com/command-t.git'
 " Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
+Plugin 'JuliaEditorSupport/julia-vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'pboettch/vim-cmake-syntax'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
 Plugin 'morhetz/gruvbox'
 Plugin 'dracula/vim', {'as':'dracula'}
+Plugin 'flazz/vim-colorschemes'									" various colour schemes 
+Plugin 'ararslan/llvm.vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'						" Additional cxx highlighting
-" All of your Plugins must be added before the following line
+"Plugin 'fatih/vim-go'
+" All of your Plugins must be added before the following line 
 call vundle#end()            " required
 filetype plugin indent on    " required
 "
@@ -53,6 +57,9 @@ filetype plugin indent on    " required
 
 " ---- colorscheme Setup ----
 colorscheme dracula
+" set t_Co=256
+" set background=dark
+" colorscheme CandyPaper
 " ---- gruvbox Setup ----
 "colorscheme gruvbox
 "set background=dark
