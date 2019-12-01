@@ -97,3 +97,7 @@ set ignorecase								" ignore case when searching
 set noerrorbells							" turn off that annoying error bell
 set list									" show invisible characters
 set listchars=tab:▸\ ,trail:▝,eol:¬ 		" ... but only show tabs, trailing, whitespace
+
+" --- relative line numbers
+set relativenumber
+set rnu
